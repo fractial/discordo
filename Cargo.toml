@@ -1,0 +1,11 @@
+[package]
+name = "discordo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tao = "0.30.3"
+wry = "0.46.2"
+
+[profile.release]
+panic = "abort"
